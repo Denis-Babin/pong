@@ -121,10 +121,10 @@ const game = (function () {
 
     const ai = function ai() {
         let paddle2YCenter = paddle2Y + (PADDLE_HEIGHT / 2);
-        if (paddle2YCenter < ballY - 35) {
-            paddle2Y += 8;
-        } else if (paddle2Y > ballY + 35) {
-            paddle2Y -= 8;
+        if (paddle2YCenter < ballY - 40) {
+            paddle2Y += 10;
+        } else if (paddle2Y > ballY + 40) {
+            paddle2Y -= 10;
         }
     }
 
